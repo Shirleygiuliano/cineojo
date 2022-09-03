@@ -1,4 +1,4 @@
-@import "variable";
+@import "variante";
 
 /* color para el fondo */
 
@@ -185,6 +185,18 @@ body, .padre1 {
     size: 40px;
   }
   
+  /* APARTADO NOSOTROS*/
+  .formulario {
+    float: (
+      responsive: true,
+      property: float,
+      values: (
+        start: left,
+        end: right,
+        none: none,
+      )
+    ),
+  }
   /* TARJETAS DE NOTICIAS*/
   
   .spenc, .crista, .mue, .cmo, .xx, .our {
