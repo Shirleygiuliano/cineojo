@@ -186,17 +186,19 @@ body, .padre1 {
   }
   
   /* APARTADO NOSOTROS*/
-  .formulario {
-    float: (
-      responsive: true,
-      property: float,
-      values: (
-        start: left,
-        end: right,
-        none: none,
-      )
-    ),
+
+  .abs-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
   }
+  
+  .form {
+    width: 450px;
+  }
+  
+
   /* TARJETAS DE NOTICIAS*/
   
   .spenc, .crista, .mue, .cmo, .xx, .our {
